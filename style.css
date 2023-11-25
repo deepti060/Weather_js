@@ -10,7 +10,7 @@ body{
     background: #222;
 }
 .card{
-    width: 100%;
+    width: 90%;
     max-width: 470px;
     background:linear-gradient(135deg,#00feba,#5b548a);
     color: #fff;
@@ -20,7 +20,7 @@ body{
     text-align: center;
 }
 .search{
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,5 +110,11 @@ body{
     .weather h2{
         font-size: 25px;
     }
-    
+    .search {
+        width: 60%;
+        margin-left: 50px;
+    }
+    .search button{
+        margin-right: 10px;
+    }
 }
