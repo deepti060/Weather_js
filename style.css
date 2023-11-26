@@ -47,7 +47,7 @@ body{
     cursor: pointer;
 }
 .search button img{
-    width: 10px;
+    width: 15px;
 }
 .weather-icon{
     width: 170px;
@@ -93,6 +93,11 @@ body{
     margin-top: 10px;
     display: none;
 }
+.btn {
+    position: absolute;
+    margin-left:23vw;
+    margin-top: 5px;
+}
 
 @media(max-width:405px){
     .humidity, .wind{
@@ -110,11 +115,16 @@ body{
     .weather h2{
         font-size: 25px;
     }
-    .search {
+    .search{
         width: 60%;
         margin-left: 50px;
     }
     .search button{
         margin-right: 10px;
+    }
+}
+@media(max-width:330px){
+    .search{
+        width:70%;
     }
 }
