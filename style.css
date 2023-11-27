@@ -21,7 +21,6 @@ body{
 }
 .search{
     width: 90%;
-    
     display: flex;
     align-items: center;
     justify-content:center;
@@ -100,10 +99,7 @@ body{
     margin-top: 5px;
 }
 @media(max-width:1279px){
-    .btn img{
-        margin-left:2px;
-        margin-top: 3px;
-    }
+    
 
 }
 @media(max-width:400px){
@@ -128,9 +124,15 @@ body{
     #col2{
         margin-left: 10px;
     }
+    .search{
+        width: 100%;
+    }
 }
 @media(max-width:370px){
     .humidity, .wind{
         font-size: 8px;
+    }
+    .search{
+        width: 100%;
     }
 }
